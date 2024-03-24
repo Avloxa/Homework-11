@@ -1,0 +1,49 @@
+@media (max-width: 500px) {
+  .header-nav {
+    display: none;
+  }
+  .meniu-icon {
+    display: block;
+  }
+  .main-content {
+    flex-direction: column-reverse;
+  }
+  .conteiner {
+    padding: 0px 18px;
+  }
+  .logo {
+    width: 100px;
+  }
+  .cross-img {
+    width: 300px;
+  }
+  .text-section {
+    text-align: center;
+  }
+  .text-section h1 {
+    font-family: Heebo;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #21243d;
+  }
+  .text-section p {
+    color: #21243d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+  }
+  .download-btn {
+    width: 208px;
+    height: 47px;
+    background-color: #ff6464;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+  }
+  .blogs {
+    flex-direction: column;
+  }
+}
